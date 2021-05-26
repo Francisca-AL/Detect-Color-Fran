@@ -49,6 +49,7 @@
             android:gravity="center"
             android:text="  Couleurs opposées  "
             android:textSize="24sp"
+            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="63dp"
             tools:layout_editor_absoluteY="604dp" />
@@ -59,8 +60,8 @@
             android:layout_height="108dp"
             app:srcCompat="@android:drawable/picture_frame"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="219dp"
-            tools:layout_editor_absoluteY="465dp" />
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="450dp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -69,9 +70,10 @@
             android:gravity="center"
             android:text="  Couleurs associées  "
             android:textSize="24sp"
+            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="63dp"
-            tools:layout_editor_absoluteY="383dp" />
+            tools:layout_editor_absoluteY="378dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -81,10 +83,11 @@
 
             android:gravity="center"
             android:text="Nom_Couleur"
-            android:textSize="24sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="83dp"
-            tools:layout_editor_absoluteY="100dp" />
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="98dp" />
 
         <TextView
             android:id="@+id/textView4"
@@ -94,7 +97,7 @@
             android:text="RGB"
             android:textSize="24sp"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteX="98dp"
             tools:layout_editor_absoluteY="168dp" />
 
         <View
@@ -126,8 +129,8 @@
             android:layout_height="108dp"
             app:srcCompat="@android:drawable/picture_frame"
             tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteX="143dp"
-            tools:layout_editor_absoluteY="233dp" />
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="230dp" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -135,8 +138,8 @@
             android:layout_height="108dp"
             app:srcCompat="@android:drawable/picture_frame"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="70dp"
-            tools:layout_editor_absoluteY="465dp" />
+            tools:layout_editor_absoluteX="74dp"
+            tools:layout_editor_absoluteY="450dp" />
 
         <vector
             android:layout_width="361dp"
@@ -172,7 +175,7 @@
             android:viewportHeight="1"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="589dp">
+            tools:layout_editor_absoluteY="578dp">
 
             <group>
 
