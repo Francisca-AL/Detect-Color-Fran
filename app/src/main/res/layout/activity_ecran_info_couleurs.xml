@@ -27,6 +27,7 @@
         android:layout_height="40dp"
         android:gravity="center"
         android:text="Indications"
+        android:textColor="@color/black"
         android:textSize="24sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="105dp"
@@ -38,18 +39,20 @@
         android:layout_height="wrap_content"
         app:srcCompat="?attr/actionModeCloseDrawable"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="13dp" />
+        tools:layout_editor_absoluteY="13dp"
+        tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="376dp"
         android:layout_height="75dp"
-        android:text="Les couleurs associées correspondent aux teintes qui se rapproches de la couleur sélectionnée."
+        android:text="@string/bold_associée"
         android:textColor="#000000"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="108dp" />
+        tools:layout_editor_absoluteY="101dp" />
 
     <TextView
         android:id="@+id/textView9"
@@ -61,19 +64,18 @@
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="196dp" />
+        tools:layout_editor_absoluteY="190dp" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="376dp"
         android:layout_height="102dp"
-        android:text="Les couleurs opposées correspondent à la couleur complémentaire et deux autres proches, opposées à couleur sélectionnée sur le cercle chromatique.
-"
+        android:text="@string/bold_opposées"
         android:textColor="#000000"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="342dp" />
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="327dp" />
 
     <TextView
         android:id="@+id/textView11"
@@ -83,9 +85,9 @@
         android:textColor="#000000"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="457dp" />
-        <!-- test -->
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="443dp" />
+    <!-- test -->
 
 </android.support.constraint.ConstraintLayout>
 

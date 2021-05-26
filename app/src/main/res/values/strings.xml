@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Detect\' Color</string>
+
+    <string name="bold_associée"> <b>Les couleurs associées</b> correspondent aux teintes qui se rapproches de la couleur sélectionnée."</string>
+
+    <string name="bold_opposées"> <b>Les couleurs opposées</b> correspondent à la couleur complémentaire et deux autres proches, opposées à couleur sélectionnée sur le cercle chromatique."</string>
+
 </resources>
