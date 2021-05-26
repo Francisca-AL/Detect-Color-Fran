@@ -36,9 +36,10 @@
         android:layout_width="260dp"
         android:layout_height="34dp"
         android:text="Bienvenue sur Dalto Wallet! "
-        android:textSize="20"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="92dp" />
+        tools:layout_editor_absoluteY="92dp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
 
 
