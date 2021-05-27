@@ -1,46 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D8EBF5"
-    tools:context=".MainActivity" >
+    tools:context="com.example.detectcolor.MainActivity" >
 
-    <View
-        android:id="@+id/rectangle_"
-        android:layout_width="442dp"
-        android:layout_height="68dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/capture_d_cran_2021_05_25___10_25_49"
-        android:visibility="visible"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:visibility="visible" />
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="@color/white"
+        />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="201dp"
-        android:layout_height="40dp"
-        android:gravity="center"
-        android:text="Dalto Wallet"
-        android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="260dp"
-        android:layout_height="34dp"
-        android:text="Bienvenue sur Dalto Wallet! "
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="92dp"
-        tools:ignore="MissingConstraints" />
-</android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>
 
 
 
