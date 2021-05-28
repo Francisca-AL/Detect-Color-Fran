@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DetectColor">
-        <activity android:name=".Tutoriel2"></activity>
+        <activity android:name=".Tutoriel3"></activity>
+        <activity android:name=".Tutoriel2" />
         <activity android:name=".ModeAffichage" />
         <activity android:name=".Tutoriel" />
         <activity

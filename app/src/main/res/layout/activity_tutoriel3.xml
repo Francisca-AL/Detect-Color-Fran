@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D8EBF5"
-    tools:context=".Tutoriel2">
+    tools:context=".Tutoriel3">
 
 
     <ImageView
@@ -17,17 +17,10 @@
         android:layout_marginTop="80dp"
         app:srcCompat="@drawable/rectangle_blanc_arrondis" />
 
-    <Button
-        android:id="@+id/passer2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00D8EBF5"
-        android:text="Passer"
-        android:layout_marginLeft="319dp"
-        android:layout_marginTop="3dp" />
+
 
     <ImageButton
-        android:id="@+id/ButtonSuivant2"
+        android:id="@+id/ButtonSuivant3"
         android:layout_width="189dp"
         android:layout_height="94dp"
         android:layout_marginLeft="114dp"
@@ -42,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:clickable="false"
-        android:text="Suivant"
+        android:text="Terminé"
         android:textColor="#000000"
         android:textSize="20sp"
         android:layout_marginLeft="172dp"

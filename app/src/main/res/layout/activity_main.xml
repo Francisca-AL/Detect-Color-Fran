@@ -16,6 +16,17 @@
         android:background="@color/white"
         />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Bienvenue sur Dalto Wallet! "
+        android:textSize="20sp"
+        android:layout_marginTop="48dp"
+        />
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
