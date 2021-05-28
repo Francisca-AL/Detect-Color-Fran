@@ -17,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.tittles);
-
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.Blue_AB)));
+
+
 
         setContentView(R.layout.activity_main);
 
@@ -39,15 +40,18 @@ public class MainActivity extends AppCompatActivity {
 
                         case R.id.nav_search :
                             selectedFragment = new SearchFragment();
+                            getSupportActionBar().setCustomView(R.layout.param_actionbar);
                             break;
 
                         case R.id.nav_settings :
                             selectedFragment = new SettingsFragment();
+                            getSupportActionBar().setCustomView(R.layout.settings_actionbar);
                             break;
 
                     }
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
+
 
                     return true;
                 }
