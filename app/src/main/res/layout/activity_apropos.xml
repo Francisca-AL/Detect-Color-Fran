@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8EBF5"
+    tools:context=".Apropos">
+
+
+    <ImageView
+        android:id="@+id/imageAP"
+        android:layout_width="331dp"
+        android:layout_height="636dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/capture_d_cran_2021_05_27___20_24_02" />
+
+    <ImageButton
+        android:id="@+id/butRetour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+</RelativeLayout>

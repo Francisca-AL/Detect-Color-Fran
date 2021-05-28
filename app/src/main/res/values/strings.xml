@@ -5,4 +5,6 @@
 
     <string name="bold_opposées"> <b>Les couleurs opposées</b> correspondent à la couleur complémentaire et deux autres proches, opposées à couleur sélectionnée sur le cercle chromatique."</string>
 
+    <string name="indicaCouleur">Indications</string>
+
 </resources>

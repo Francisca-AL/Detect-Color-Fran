@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.detectcolor">
 
     <application
@@ -9,9 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DetectColor">
-        <activity android:name=".EcranInfoCouleurs"></activity>
-        <activity android:name=".ResultatActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ModeAffichage"></activity>
+        <activity android:name=".Tutoriel" />
+        <activity android:name=".Apropos"
+            android:parentActivityName=".SettingsFragment"></activity>
+        <activity
+            android:name=".MainActivity"
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
